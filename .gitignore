@@ -1,0 +1,10 @@
+.idea
+__pycache__
+audio_recordings/**
+!audio_recordings/.gitkeep
+audio_recordings_wav/**
+!audio_recordings_wav/.gitkeep
+output/**
+!output/.gitkeep
+transcript_json/**
+!transcript_json/.gitkeep
