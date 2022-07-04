@@ -1,0 +1,11 @@
+version: "3"
+services:
+        audio-samples:
+                container_name: 'audio-samples'
+                image: 'audio-samples'
+                restart: on-failure
+                volumes: 
+                #- ./audio_recordings_wav:/src/audio_recordings_wav
+                        - ./audio_recordings:/src/audio_recordings
+                        - ./output:/src/output
+                        - ./transcript_json:/src/transcript_json
